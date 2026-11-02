@@ -1,0 +1,24 @@
+# 虚拟环境（体积大，永不进仓库）
+ficc-env/
+
+# Jupyter / IPython 运行与缓存目录
+.ipython/
+.jyconfig/
+.jydata/
+.jyrun/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# 数据文件（大文件只留本地）
+*.csv
+*.db
+*.xlsx
+*.h5
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 系统杂项
+Thumbs.db
+Desktop.ini
